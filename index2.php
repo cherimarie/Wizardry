@@ -67,7 +67,61 @@ $middle = array(
     "Plumberry",
     "Sugartwist",
 
+<<<<<<< HEAD
 );
+
+=======
+$last = array(
+    "Smith",
+	"Cumberbatch",
+	"Trace",
+	"Revolution",
+	"Soma",
+	"Spice",
+	"Kief",
+	"Gamble",
+	"Sapphire",
+	"Clegg",
+	"Bernard",
+	"Dylan",
+	"Whimper",
+	"Blaze",
+	"Incognito",
+	"Doom",
+	"Deville",
+	"Natasha",
+	"Polar",
+	"Sativa",
+	"Paranormal",
+	"Lennon",
+	"Song",
+	"Prudence",
+	"Crimson",
+	"Revelation",
+	"Harmony",
+    
+);
+
+$power = array(
+
+	"X-Ray Vision",
+	"Telepathy",
+	"Power Augmentation",
+	"Immortality",
+	"Flight",
+	"Healing",
+	"Elasticity",
+	"Animal Morphing",
+	"Sublimation",
+	"Time Travel",
+	"Teleportation",
+	"Superhuman Speed",
+	"Weather Manipulation",
+	"Fire and Heat Manipulation",
+	"Cold and Ice Manipulation",
+	
+);
+
 
 
 
