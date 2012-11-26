@@ -21,33 +21,80 @@ include 'touching_design/touching_top.php'; #header must appear before any HTML 
 echo '<h3>Wizard Name Generator1</h3>';
 
 $first = array(
+	"Andromeda",
+	"Blunderfoot",
+	"Chrunchmeat",
+	"Dakota",
+	"Ember",
+	"Frank",
+	"Gorethrasher",
+	"Helldancer",
+	"Indica",
+	"Julian",
+	"Kitty",
+	"Lars",
     "Moonbeam",
-    "Andromeda",
+    "Nigel",
+    "Ogrefoot",
+    "Putridious",
+    "Quarrrr",
     "Rainbow",
     "Stardust",
-    "Xavier",
-    "Chrunchmeat",
-    "Stone",
-    "Skye",
-    "Indica",
-    "Ember",
-    "Dakota",
     "Thunderfist",
-    "Willow"
-);
+    "Ulrich",
+    "Vittler",
+    "Willow",
+    "Xavier",
+    "Yoda",
+    "Zebranipples"
+    );
 
 $middle = array(
-    "Smith",
-    
+    "Riverstone",
+    "Rain",
+    "Starbright",
+    "Jade",
+    "Lionfoot",
+    "Sunshine",
+    "Hawkcry",
+    "Elderflower",
+    "Breezes",
+    "Dove",
+    "Liberty",
+    "Smash",
+    "Danger",
+    "Dark",
+    "Plumberry",
+    "Sugartwist",
+
 );
 
-$last = array(
-    "Smith",
-    
-);
 
-echo $male[array_rand($male)] . ' ' . $middle[array_rand($middle)] . ' ' . $last[array_rand($last)];
-echo "Your super wizard power is: " $power[array_rand($power)]
 
+echo "Your wizard name is: " . $first[array_rand($first)] . ' ' . $middle[array_rand($middle)]; # . ' ' . $last[array_rand($last)]
+echo "<br /> <br />Your super wizard power is: "; #. $power[array_rand($power)]
+?>
+
+<form>
+			<fieldset>						
+				<p>
+					<label>First Name: <input type="text" name="first-name" required/></label>
+				</p>
+				<p>
+					<p>Which element do you most identify with?<br />
+					<br />
+					<label><input type="radio" name="element" value="earth">Earth<br /></label>
+					<label><input type="radio" name="element" value="water">Water<br /></label>
+					<label><input type="radio" name="element" value="air">Air<br /></label>
+					<label><input type="radio" name="element" value="fire">Fire<br /></label>
+					</p>
+				</p>
+			
+			<br />
+			<input type="submit" value="Get my power!" >
+			</fieldset>
+</form>		
+
+<?php
 include 'touching_design/touching_bottom.php'; 
 ?>
