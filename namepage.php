@@ -6,7 +6,7 @@ $title = 'Wizard Name Generator'; //Optional unique variable becomes title tag
 #--- end config area
 
 include 'touching_design/touching_top.php'; #header must appear before any HTML is printed by PHP
-echo '<h3>Wizard Name Generator1</h3>';
+echo '<h3>Wizard Name Generator</h3>';
 
 $first = array(
 	"Andromeda",
